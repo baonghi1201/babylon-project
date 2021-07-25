@@ -22,12 +22,12 @@ var delayCreateScene = function () {
 
     BABYLON.SceneLoader.ImportMesh(
         "",
-        "https://raw.githubusercontent.com/baonghi1201/GLB/main/",
-        "apartment.glb",
+        "https://raw.githubusercontent.com/baonghi1201/babylon-project/main/",
+        "glb.glb",
         scene,
         function (meshes) {          
             scene.createDefaultCameraOrLight(true, true, true);
-            scene.createDefaultEnvironment();
+            //scene.createDefaultEnvironment();
     });
 
     return scene;

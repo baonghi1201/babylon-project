@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", function(){
     
         BABYLON.SceneLoader.ImportMesh(
             "", 
-            "https://raw.githubusercontent.com/baonghi1201/GLB/main/",
+            "https://raw.githubusercontent.com/baonghi1201/babylon-project/main/",
             "glb.glb", 
             scene,
             function (mesh) {          
